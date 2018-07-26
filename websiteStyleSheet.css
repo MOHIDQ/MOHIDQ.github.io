@@ -56,13 +56,11 @@ body {
 	background-color: #4385ef;
 	color: #FFF;
 }
-@media only screen and (max-width:480px) { 
-  .resButton { width: 100%; font-size: 90%; }
-}
 
 @media only screen and (max-width:480px) { 
   .images { width: 137%; }
   .images2 {width: 85%; }
   .images3 { width: 50%; }
-  .header { background-position: right bottom; font-size: 90%;}
+  .header { background-position: right bottom; font-size: 90%; }
+  .resButton { width: 100%; font-size: 90%; }
 }
