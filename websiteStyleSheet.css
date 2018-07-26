@@ -1,0 +1,68 @@
+body {
+  background-color: #d0d8e5;
+  margin: 0;
+}
+.header {
+	background-image: url("images/backHeader3.jpg");
+	padding: 30px; 
+	background-position: center bottom;
+	text-align: center;
+	font-size: 2vw;
+	color: #cdd0d6;
+
+}
+.subHeader {
+	border-style:solid;
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+}
+.images {
+    width: 182%;
+    height: auto;
+    text-align: center;
+}
+.images2 {
+	position: relative;
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+
+.images4 {
+	width: 160%;
+	height: auto;
+	text-align: center;
+	color: black;
+}
+.images4:hover {
+  border-color: black;
+  opacity: 0.2;
+}
+.resButton {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 100%;
+	color: #4385ef;
+	background-color: transparent;
+	border: 2px solid #4385ef;
+	padding: 10px 12px;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color ease 500ms;
+}
+.resButton:hover {
+	background-color: #4385ef;
+	color: #FFF;
+}
+@media only screen and (max-width:480px) { 
+  .resButton { width: 100%; font-size: 90%; }
+}
+
+@media only screen and (max-width:480px) { 
+  .images { width: 137%; }
+  .images2 {width: 85%; }
+  .images3 { width: 50%; }
+  .header { background-position: right bottom; font-size: 90%;}
+}
