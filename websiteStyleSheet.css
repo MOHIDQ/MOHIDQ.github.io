@@ -18,7 +18,7 @@ body {
 	color: black;
 }
 .images {
-    width: 182%;
+    width: 181%;
     height: auto;
     text-align: center;
 }
@@ -34,6 +34,9 @@ body {
 .images2:hover {
 	opacity: 0.2;
 	transition: opacity 0.4s;
+}
+.images3 {
+	padding-left: 10px;
 }
 .appText {
 	padding: 20px 0px 0px 15px; 
@@ -66,11 +69,18 @@ body {
 	background-color: #4385ef;
 	color: #FFF;
 }
+@media only screen and (max-width:900px) { 
+  .images { width: 137%; padding-left: 55px; }
+  .images2 {width: 85%; }
+  .images3 { width: 30%; padding-left: 55px;}
+  .header { background-position: right bottom; font-size: 90%;} 
+  .resButton { width: 100%; font-size: 90%; margin-bottom: 5px;}
+}
 
 @media only screen and (max-width:480px) { 
-  .images { width: 137%; }
+  .images { width: 137%; padding-left: 0px;}
   .images2 {width: 85%; }
-  .images3 { width: 50%; }
+  .images3 { width: 50%; padding-left: 0px;}
   .header { background-position: right bottom; font-size: 90%; }
   .resButton { width: 100%; font-size: 100%; margin-bottom: 5px;}
 }
