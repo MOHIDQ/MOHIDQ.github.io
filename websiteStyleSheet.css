@@ -22,26 +22,31 @@ body {
     height: auto;
     text-align: center;
 }
+.images:hover {
+	opacity: 0.2;
+	transition: opacity 0.4s;
+}
 .images2 {
 	width: 90%;
 	height: auto;
 	text-align: center;
+}
+.images2:hover {
+	opacity: 0.2;
+	transition: opacity 0.4s;
 }
 .appText {
 	padding: 20px 0px 0px 15px; 
 	font-weight: bold;
 }
 
-.images4 {
-	width: 160%;
-	height: auto;
-	text-align: center;
-	color: black;
+.googleImage:hover {
+	opacity: 0.2;
+	transition: opacity 0.4s;
 }
-.images4:hover {
-  border-color: black;
-  opacity: 0.2;
-}
+
+
+
 .resButton {
 	display: inline-block;
 	font-size: 16px;
@@ -67,5 +72,5 @@ body {
   .images2 {width: 85%; }
   .images3 { width: 50%; }
   .header { background-position: right bottom; font-size: 90%; }
-  .resButton { width: 100%; font-size: 100%; }
+  .resButton { width: 100%; font-size: 100%; margin-bottom: 5px;}
 }
