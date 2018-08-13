@@ -21,34 +21,53 @@ body {
     width: 181%;
     height: auto;
     text-align: center;
+    opacity: 1.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
 }
 .images:hover {
 	opacity: 0.2;
-	transition: opacity 0.4s;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
 }
 .images2 {
 	width: 90%;
 	height: auto;
 	text-align: center;
+	opacity: 1.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
 }
 .images2:hover {
 	opacity: 0.2;
-	transition: opacity 0.4s;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
 }
 .images3 {
 	padding-left: 10px;
 }
 .appText {
+	
+
 	padding: 20px 0px 0px 15px; 
 	font-weight: bold;
 }
-
+.googleImage {
+	opacity: 1.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+}
 .googleImage:hover {
 	opacity: 0.2;
-	transition: opacity 0.4s;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
 }
-
-
 
 .resButton {
 	display: inline-block;
