@@ -42,6 +42,21 @@ h2 {
     opacity: 0.7;
     color: white;
 }
+
+.fas {
+  padding: 50px;
+  font-size: 100px !important;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+
+.fas:hover {
+    opacity: 0.7;
+    color: white;
+}
 .card-body {
   background-color: #FAFCFD;
 }
@@ -69,6 +84,10 @@ i:hover {
 }
 
 .fa-linkedin {
+  background: #383A3B;
+  color: white;
+}
+.fa-basketball-ball {
   background: #383A3B;
   color: white;
 }
@@ -104,6 +123,13 @@ i:hover {
 		  text-decoration: none;
 		  margin: 5px 2px;
 		  border-radius: 50%;}
+  .fas {   padding: 25px;
+  font-size: 40px !important;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;}
   	i {  padding: 10px;
 		  font-size: 60px !important;
 		  width: 20px;
@@ -120,4 +146,6 @@ i:hover {
       font-size: 7vw;
     }
 }
+
+
 
