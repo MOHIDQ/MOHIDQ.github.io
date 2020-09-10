@@ -57,9 +57,7 @@ h2 {
     opacity: 0.7;
     color: white;
 }
-.card-body {
-  background-color: #FAFCFD;
-}
+
 i {
   padding: 10px;
   font-size: 90px !important;
@@ -69,36 +67,33 @@ i {
   margin: 5px 2px;
   border-radius: 50%;
 }
-/*i {
-  padding: 0.25vw;
-  font-size: 10vw !important;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-} */
-
 i:hover {
-	opacity:  0.8;
+	opacity:  0.7;
+}
+
+.card-body {
+  background-color: #f7f7f7;
+  background-clip: border-box;
+  border: 2px solid #000000;
+  border-radius: 0.25rem;
 }
 
 .fa-linkedin {
   background: #383A3B;
-  color: white;
+  color: #00a0dc;
 }
 .fa-basketball-ball {
   background: #383A3B;
-  color: white;
+  color: orange;
 }
 
 .fa-github {
 	background: #383A3B;
-	color: white;
+	color: #8d6cab;
 }
 .fa-envelope-o {
 	background: #383A3B;
-	color: white;
+	color: #d9534f;
 }
 .fa-android {
 	background: #383A3B;
@@ -106,7 +101,7 @@ i:hover {
 }
 .fa-calculator {
   background: #383A3B;
-  color: white;
+  color: #5cb85c;
 }
 .resButton {
 	height: 125%;

@@ -1,6 +1,4 @@
-
-$( document ).ready(function() {
- // $("#div1").fadeIn(2000);
-  //$("#div2").fadeIn(2000);
-  //console.log("ready")
+//sets the tool tips
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
