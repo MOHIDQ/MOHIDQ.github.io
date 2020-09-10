@@ -1,7 +1,9 @@
 
 body {
-  background-image: url('images/background.jpg');
+  /*background-image: url('images/background.jpg'); */
   /*background-color: #d1d2de; */
+  background-image: url('https://media1.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e474n319qqry7fg05m0x8m0rrtdj9on58qgjsz973z6&rid=giphy.gif');
+  background-size: cover;
   margin: 0;
 }
 a {
