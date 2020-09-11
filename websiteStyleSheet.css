@@ -10,12 +10,16 @@ a {
     text-decoration: none !important;
 }
 h1 {
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: "Arial",
+  font-weight: bold;
   font-size: 5.5vw;
+  color: #F7F7F7;
 }
 h2 {
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: "Arial",
+  font-weight: bold;
   font-size: 3vw;
+  color: #F7F7F7;
 }
 
 /*(br {
@@ -64,47 +68,87 @@ i {
   padding: 10px;
   font-size: 90px !important;
   width: 20px;
-  text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+}
+img {
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0%;
+  border-radius: 100%;
 }
 i:hover {
 	opacity:  0.7;
 }
 
 .card-body {
-  background-color: #f7f7f7;
+  background-color: #2d2e31;
   background-clip: border-box;
   border: 2px solid #000000;
   border-radius: 0.25rem;
 }
 
 .fa-linkedin {
-  background: #383A3B;
+  background: #cae2ea;
   color: #00a0dc;
 }
-.fa-basketball-ball {
-  background: #383A3B;
-  color: orange;
+.fa-linkedin:hover {
+  background: #00a0dc;
+  color: #cae2ea;
 }
 
+
+.fa-basketball-ball {
+  background: #fff0d4;
+  color: orange;
+}
+.fa-basketball-ball:hover {
+  background: orange;
+  color: #fff0d4;
+}
+
+
+
 .fa-github {
-	background: #383A3B;
+	background: #e8cfff;
 	color: #8d6cab;
 }
+.fa-github:hover {
+  color: #e8cfff;
+  background: #8d6cab;
+  opacity: 0.7;
+}
+
+
 .fa-envelope-o {
-	background: #383A3B;
+	background: #ffa9a6;
 	color: #d9534f;
 }
-.fa-android {
-	background: #383A3B;
-	color: white;
+.fa-envelope-o:hover {
+  background: #d9534f;
+  color: #ffa9a6;
 }
+
+
 .fa-calculator {
-  background: #383A3B;
+  background: #d2ffd2;
   color: #5cb85c;
 }
+.fa-calculator:hover {
+  background: #5cb85c;
+  color: #d2ffd2;
+}
+
+.devicon-linux-plain {
+  background-color: #ffd4b0;
+}
+
+.devicon-express-original-wordmark {
+  background-color: #d2ffd2;
+}
+
 .resButton {
 	height: 125%;
 	width: 30%;
